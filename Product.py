@@ -12,9 +12,6 @@ class Product:
     def setProductValue(self, productValue):
         self.productValue = productValue
     
-    def setBrand(self, brand):
-        self.brand = brand
-    
     def setURL(self, URL):
         self.URL = URL
     
