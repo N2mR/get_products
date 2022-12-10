@@ -15,6 +15,8 @@ class Product:
     def setURL(self, URL):
         self.URL = URL
     
+    def getName(self):
+        return self.name
 
     def parseReviewCount():
         return 0
