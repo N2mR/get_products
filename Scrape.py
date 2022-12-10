@@ -72,7 +72,6 @@ class Scrape:
                 product.URL = link
                  
                 products = np.append(products, product)
-            
             time.sleep(1)
         
         return products
